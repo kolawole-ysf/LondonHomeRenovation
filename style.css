@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* -------------header section------------------ */
+header{
+    width: 100%;
+    background-color: white;
+}
+.contact-details{
+    min-width: 600px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: red!important;
+    font-size: 14px;
+}
+.detail svg, .loc{
+    color: rgb(134, 133, 133);
+}
+.detail span{
+    margin-left: 10px;
+    color: red;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.nav-btn{
+    color: white;
+    width: 150px;
+    height: 60px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 10px 12px;
+    text-align: center;
+    font-weight: bold;
+    background-color: red;
+    line-height: 16px;
+    font-size: 14px;
+    transition: transform .5s ease-in-out;
+    
+}
+.nav-btn:hover{
+    color: whitesmoke;
+    transform: scale(1.2);
+}
+
+/* -------------Hero Section----------------- */
+.hero{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+}
+.hero .container{
+    background-image: url('https://img.freepik.com/premium-photo/empty-room-interior-with-armchair-decorating-idea-white-wall-background-3d-rendering_41470-4375.jpg?w=2000');
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color: white;
+    padding: 16px 24px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    text-align: center;
+    font-weight: bold;
+    background-color: red;
+    line-height: 16px;
+    font-size: 14px;
+    transition: transform .5s ease-in-out;
+    
+}
+.btn:hover{
+    color: whitesmoke;
+    transform: scale(1.2);
+}
+.hero-title{
+    font-size: 24px;
+    color: red;
+}
+.hero-body{
+    font-weight: bold;
+    font-size: 56px;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 12px black;
+}
+/* ---------------Project Section------------ */
+.project{
+    width: 100%;
+    min-height: 80vh;
+    padding: 10px;
+    background-color: white;
+}
+.project .container{
+    overflow: hidden;
+}
+.project-text{
+    padding: 20px 60px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;   
+}
+.project-title{
+    font-weight: bold;
+    font-size: 36px;
+}
+.project-subtitle{
+    font-weight: bold;
+    color: rgb(104, 103, 103);
+    font-size: 30px;
+}
+.project-body{
+    font-size: 20px;
+    color: rgb(104, 103, 103);
+}
+.project-circle{
+    width: 500px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: -150px;
+    margin-left: -250px;
+}
+.hr-design{
+    display: flex;
+}
+.hr{
+    width: 100px;
+    height: 6px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px;
+    background-color: red;
+}
+.dot{
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 10px;
+    animation: dot 2s alternate infinite;
+}
+@keyframes dot {
+    from{
+        transform: translateX(0) scale(1) rotate(0deg);
+    }to{
+        transform: translateX(50px) scale(2) rotate(360deg);
+    }
+}
+.button{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.project-img{
+    position: relative;
+}
+.project-img img{
+    transition: transform .5s ease-in-out;
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+.project-img .project-num{
+    transition: transform .5s ease-in-out;
+    animation-delay: 3s;
+    animation-duration: 2s;
+}
+.project-img:hover img{
+    transform: translate(-12.5794px,-1.14927px);
+    cursor: pointer;
+}
+.project-img .project-num{
+    position: absolute;
+    right: 80px;
+    bottom: 10%;
+}
+.project-num{
+    text-align: center;
+    color: white;
+}
+.project-num h4{
+    font-size: 16px;
+}
+.project-count{
+    font-size: 48px;
+    font-weight: 700;
+}
+/* ------------Services section-------------- */
+.service{
+    width: 100%;
+    background-color: white;
+    padding: 0 20px;
+}
+.service .container{
+    overflow: hidden;
+}
+.form-container{
+    min-height: 100vh;
+    padding: 40px;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.services li{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 4px 0;
+}
+.service-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.service-con .btn{
+    margin-bottom: 28px;
+}
+
+/* -------------Form Section---------------- */
+.card{
+    padding:40px 20px;
+    border-radius: 0 24px 0 24px;
+    box-shadow: 2px 2px 12px rgb(204, 204, 204);
+    min-width: 350px;
+}
+.form-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.form-btn{
+    color: white;
+    padding: 16px 24px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    text-align: center;
+    font-weight: bold;
+    background-color: red;
+    line-height: 16px;
+    font-size: 14px;    
+    outline: none;
+    border: 0;
+}
