@@ -39,37 +39,19 @@
         color: whitesmoke;
         text-shadow: 2px 2px 12px black;
     }
-    .project-text{
-        padding: 20px 10px;
-        height: 80vh;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;   
-    }
-    .project-title{
-        font-weight: bold;
-        font-size: 32px;
-    }
-    .project-subtitle{
-        font-weight: bold;
-        color: rgb(104, 103, 103);
-        font-size: 28px;
-    }
+
     .service-info .project-title{
         font-size: 24px;
     }
-    .button{
-        display: flex;
-        width: 90%;
-        justify-content: space-between;
-        align-items: center;
-    }
+
     .project-img{
-        width:80%;
+        width:100%;
         margin: auto;
         background-color:  rgb(134, 134, 134);
         overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .project-img img{
         width: 350px;
@@ -83,12 +65,70 @@
     }
     .project-img .project-num{
         position: absolute;
-        right: 70px;
+        right: 20%;
         bottom: 10%;
+    }
+    .project-text{
+        padding:20px;  
+    }
+    .project-title{
+        font-weight: 500;
+        font-size: 28px;
+    }
+    .project-circle{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border-radius: 50%;
+        margin-top: -150px;
+        margin-left: -150px;
+    }
+    .project-subtitle{
+        font-weight: 600;
+        color: rgb(104, 103, 103);
+        font-size: 22px;
+    }
+    .project-body{
+        font-size: 16px;
+        color: rgb(104, 103, 103);
+    }
+    .button{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .button .btn{
+        margin-bottom: 10px;
+    }
+    .project-text{
+        padding:60px 0;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;   
     }
     .services li{
         font-size: 20px;
         font-weight: 500;
         padding: 4px 0;
     }
+    .form-container{
+        min-height: 100vh;
+        padding: 10px;
+    }
+    .service{
+        width: 100%;
+        background-color: white;
+        padding: 0 10px;
+    }
+    .card{
+        padding:20px;
+        border-radius: 0 24px 0 24px;
+        box-shadow: 2px 2px 12px rgb(204, 204, 204);
+        min-width: 300px;
+    }
+    
 }
