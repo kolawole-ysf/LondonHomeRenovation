@@ -204,12 +204,12 @@ header{
     transform: translate(-12.5794px,-1.14927px);
     cursor: pointer;
 }
-.project-img .project-num{
+/* .project-img .project-num{
     position: absolute;
     right: 80px;
     bottom: 10%;
-}
-.project-num{
+} */
+/* .project-num{
     text-align: center;
     color: white;
 }
@@ -219,7 +219,7 @@ header{
 .project-count{
     font-size: 48px;
     font-weight: 700;
-}
+} */
 /* ------------Services section-------------- */
 .service{
     width: 100%;
