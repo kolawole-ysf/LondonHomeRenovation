@@ -110,6 +110,20 @@
         align-items: flex-start;
         justify-content: center;   
     }
+    .services{
+        display: block;
+    }
+   
+    .service-con{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .service-con .btn{
+        margin-bottom: 28px;
+    }
     .services li{
         font-size: 20px;
         font-weight: 500;
@@ -130,5 +144,44 @@
         box-shadow: 2px 2px 12px rgb(204, 204, 204);
         min-width: 300px;
     }
+    .card-header{
+        color: red;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .form-input{
+        display: block;
+    }
     
+.service-bg{
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 40vh;
+    background-image: url('https://wallup.net/wp-content/uploads/2014/08/interior-design-living-room-748x468.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+    .service-bg h2{
+        font-size: 26px;
+        font-weight: 600;
+        margin: 10px 0px;
+        text-shadow: 2px 2px 12px black;
+    }
+    .service-bg h4{
+        font-size: 20px;
+    }
+    .service-bg p{
+        font-size: 14px;
+        text-shadow: 2px 2px 12px black;
+        display: none;
+    }
+
+    .service-bg .project-circle{
+        display: none;
+    }
 }
