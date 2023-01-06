@@ -342,3 +342,73 @@ header{
     width: 100%;
     margin-top: 20px;
 }
+/* ---------------Testimonials section------------- */
+.testimonial{
+    min-height: 80vh;
+    width: 100%;
+}
+.testimonial .container{
+    overflow: hidden;
+    background-image: url('https://www.crwflags.com/fotw/images/u/us_trl-n.gif');
+    background-position: top 80% right 10%;
+    object-fit: cover;
+    background-size: cover;
+}
+.card-body{
+    height: 350px;
+}
+.testimony{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    padding-bottom: 40px;
+}
+
+.testimonial-heading{
+    text-align: center;
+    padding: 20px;
+}
+.testimonial-heading h4{
+    color: red;
+}
+.testimonial-heading h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.testimonial-card{
+    width: 50%;
+    height: 400px;
+    padding: 20px 30px;
+    border-radius: 0px 15% 0px 15%;
+    box-shadow: 1px 1px 8px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:20px auto;
+    background-color: white;
+}
+.testimony-text p{
+    font-size: 18px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.user-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.user-details{
+    font-size: 18px;
+    font-weight: bold;
+}
+.user-details span{
+    color: red;
+    font-weight: 400;
+}
