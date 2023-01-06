@@ -350,12 +350,12 @@ header{
 .testimonial .container{
     overflow: hidden;
     background-image: url('https://www.crwflags.com/fotw/images/u/us_trl-n.gif');
-    background-position: top 80% right 10%;
+    background-position: center;
     object-fit: cover;
     background-size: cover;
 }
 .card-body{
-    height: 350px;
+    height: 280px;
 }
 .testimony{
     width: 100%;

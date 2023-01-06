@@ -46,7 +46,7 @@
 
     .project-img{
         width:100%;
-        margin: auto;
+        margin: 20px auto;
         background-color:  rgb(134, 134, 134);
         overflow: hidden;
         display: flex;
@@ -56,7 +56,7 @@
     .project-img img{
         width: 350px;
     }
-    .project-num h4{
+    /* .project-num h4{
         font-size: 12px;
     }
     .project-count{
@@ -67,7 +67,7 @@
         position: absolute;
         right: 20%;
         bottom: 10%;
-    }
+    } */
     .project-text{
         padding:20px;  
     }
@@ -143,6 +143,9 @@
         padding:10px;
         border-radius: 0 24px 0 24px;
         min-width: 300px;
+    }
+    .card-body{
+        height: 350px;
     }
     .card-header{
         color: red;
