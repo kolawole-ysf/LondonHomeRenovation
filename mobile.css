@@ -8,7 +8,7 @@
         align-items: center;
         padding-bottom: 20px;
     }
-    .nav-btn{
+    .nav-btn-1{
         color: white;
         width: 200px;
         height: 40px;
@@ -100,7 +100,7 @@
         align-items: center;
         margin: 20px 0;
     }
-    .button .btn{
+    .button .btn-1{
         margin-bottom: 10px;
     }
     .project-text{

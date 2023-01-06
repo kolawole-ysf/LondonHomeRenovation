@@ -55,7 +55,7 @@ header{
     font-size: 14px;
 
 }
-.nav-btn{
+.nav-btn-1{
     color: white;
     width: 150px;
     height: 60px;
@@ -70,9 +70,10 @@ header{
     line-height: 16px;
     font-size: 14px;
     transition: transform .5s ease-in-out;
+    cursor: pointer;
     
 }
-.nav-btn:hover{
+.nav-btn-1:hover{
     color: whitesmoke;
     transform: scale(1.2);
 }
@@ -94,7 +95,7 @@ header{
     align-items: center;
     justify-content: center;
 }
-.btn{
+.btn-1{
     color: white;
     padding: 16px 24px;
     border-top-right-radius: 12px;
@@ -107,9 +108,9 @@ header{
     line-height: 16px;
     font-size: 14px;
     transition: transform .5s ease-in-out;
-    
+    cursor: pointer;
 }
-.btn:hover{
+.btn-1:hover{
     color: whitesmoke;
     transform: scale(1.2);
 }
