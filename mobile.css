@@ -303,4 +303,38 @@
         font-size: 16px;
         font-weight: 400;
     }
+    .chat-btn{
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: red;
+        right: 5%;
+        bottom: 30px;
+        z-index: 99;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .chat-btn i{
+        color: white;
+        font-size: 24px;
+    }
+    .btn1-close{
+        position: fixed;
+        width:60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: red;
+        right: 5%;
+        bottom: 30px;
+        z-index: 99;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white!important;
+    }
+    .btn1-close i{
+        font-size: 24px;
+    }
 }

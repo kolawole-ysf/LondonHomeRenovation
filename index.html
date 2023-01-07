@@ -484,17 +484,34 @@
     <div class="chat-btn" data-bs-toggle="modal" data-bs-target="#myModal2">
       <i class="fa fa-comments" aria-hidden="true"></i>
     </div>
-    <!-- Scrollable modal -->
-
+    <!-- Chat Button Scrollable modal -->
 <div class="modal" tabindex="-1" id="myModal2">
   <div class="modal-dialog  modal-dialog-scrollable">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
+      <div class="modal-header p-0">
+        <div class="question">
+          <h3>Have a question?</h3>
+        </div>
         <div class="btn1-close" data-bs-dismiss="modal" aria-label="Close" id="btn-close"><i class="fa fa-remove" aria-hidden="true"></i></div>
       </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
+      <div class="modal-body my-4">
+        <span class="msg card p-3">
+          Enter your question below and a representative will get right back to you.
+        </span>
+        <form class="p-4">
+          <div class="mb-3">
+            <input type="text" class="form-control chat-form" id="exampleFormControlInput1" placeholder="name">
+          </div>
+          <div class="mb-3">
+            <input type="number" class="form-control chat-form" id="exampleFormControlInput1" placeholder="Phone">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="form-btn">Submit</button>
+        </div> 
+        </form>
       </div>
     </div>
   </div>
