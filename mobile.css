@@ -219,17 +219,17 @@
         font-size: 28px;
         color: white;
     }
-    .work-slider{
+    /* .work-slider{
         width: auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         gap: 20px
         
-    }
+    } */
     .work-img{
-        width: 320px;
-        height: 320px;
+        min-width: 200px;
+        min-height: 200px;
         overflow: hidden;
     }
     .work-img img{

@@ -263,7 +263,7 @@ header{
     align-items: center;
     justify-content: center;
 }
-.service-con .btn{
+.service-con .btn-1{
     margin-bottom: 28px;
 }
 
@@ -445,17 +445,17 @@ header{
     font-size: 40px;
     color: white;
 }
-.work-slider{
+/* .work-slider{
     width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px
     
-}
+} */
 .work-img{
-    width: 400px;
-    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
     overflow: hidden;
 }
 .work-img img{
