@@ -15,7 +15,7 @@
         padding: 10px 12px;
         text-align: center;
         font-weight: bold;
-        background-color: red;
+        background-color: orangered;
         line-height: 16px;
         font-size: 14px;
         transition: transform .5s ease-in-out; 
@@ -29,7 +29,7 @@
     }
     .hero-title{
         font-size: 20px;
-        color: red;
+        color: orangered;
         font-weight: 500;
     }
     .hero-body{
@@ -78,7 +78,7 @@
     .project-circle{
         width: 200px;
         height: 200px;
-        background-color: red;
+        background-color: orangered;
         border-radius: 50%;
         margin-top: -150px;
         margin-left: -150px;
@@ -148,7 +148,7 @@
         height: 350px;
     }
     .card-header{
-        color: red;
+        color: orangered;
         font-weight: bold;
         font-size: 22px;
         margin-bottom: 30px;
@@ -187,7 +187,7 @@
     .service-bg .project-circle{
         width: 200px;
         height: 200px;
-        background-color: red;
+        background-color: orangered;
         border-radius: 50%;
         margin-top: -150px;
         margin-left: -150px;
@@ -277,7 +277,7 @@
         justify-content: center;
     }
     .social-media p{
-        color: red;
+        color: orangered;
         font-size: 20px;
         padding-top: 20px;
     }
@@ -290,7 +290,7 @@
     .icons i{
         margin-left: 20px;
         font-size: 28px;
-        color: red;
+        color: orangered;
     }
     .copyright{
         width: 100%;
@@ -308,7 +308,7 @@
         width: 60px;
         height: 60px;
         border-radius: 50%;
-        background-color: red;
+        background-color: orangered;
         right: 5%;
         bottom: 30px;
         z-index: 99;
@@ -325,7 +325,7 @@
         width:60px;
         height: 60px;
         border-radius: 50%;
-        background-color: red;
+        background-color: orangered;
         right: 5%;
         bottom: 30px;
         z-index: 99;
